@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap');
+
+
+
+html{
+    font-size:62.5%;
+    }
+
+body{
+    font-family:"Nuinto Sans", sans-serif;
+    font-weight: 300;
+    background-color: #0a183d !important;
+}
+a, a:hover{
+    text-decoration:none;
+  
+  }
+  
+  .main_header{
+    width: 100vw;
+   line-height: 10rem;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) #0a183d;
+    
+    
+  }
+
+  .brand{
+      color: #fff;
+
+      
+  }
+
+  .brand:hover{
+      color: #b71540;
+  }
+
+  .fas{
+      font-size:4rem;
+  }
+  
+  .header_hero{
+    width: 100%;
+    height: 100%;
+   background: #0a183d;
+  /* margin-left: 0.5%;*/
+  /* position: fixed;
+   top:1;
+  width: 100%;  */
+  
+  
+  }
+  
+  .header_hero_text {
+    height: 80vh;
+    /*width: 100%;*/
+    /*background: black;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+  
+  h2{
+      color: #fff;
+    font-size: 7rem;
+    margin-bottom: 3rem;
+    line-height: 150%;
+    font-weight: 600;;
+  }
+  
+  span{
+    color: #b71540;
+    text-transform: capitalize;
+
+  }
+  
+  p{
+      font-size: 1.8rem;
+      color: #fff;
+      margin-bottom: 5rem;
+
+  }
+  .header_text_btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  /*  mixing color combination */
+  
+  .my_btn1{
+    padding: 0.8rem 3.2rem;
+    background:#b71540;
+    line-height: 3rem;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s eaase 0s;
+    cursor: pointer;
+    border-radius:4.5rem; 
+    outline:none;
+    text-decoration: none;
+  }
+
+
+  .my_btn{
+    padding: 0.8rem 3.2rem;
+    background:#b71540;
+    line-height: 3rem;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s eaase 0s;
+    cursor: pointer;
+    border-radius:4.5rem; 
+    outline:none;
+    margin-left: 2rem;
+    text-decoration: none;
+
+  }
+
+  /* .hovereffects{
+      background-color: #fff;
+      box-shadow: 0px 15px 20px rgba(255, 255, 157, 0.4);
+      color: #0a183d;
+      transform:translate(-7px);
+  } */
+
+  .navbarnav{
+      padding-left: 15rem;
+
+  } 
+  .nav-item .nav-link{
+font-size: 1.6rem;
+color: #fff;
+text-transform: uppercase;
+padding-right: 3rem;
+
+  }
+
+  .main_header .nav-link .a{  /*uselesss may be*/
+      padding-right: 0%;
+  }
+
+
+  .my-btn{
+    padding: 0.8rem 3.2rem;
+    background:#b71540;
+    line-height: 3rem;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s eaase 0s;
+    cursor: pointer;
+    border-radius:4.5rem; 
+    outline:none;
+
+  }
+
+  .images{
+      
+     /* background: black;*/
+      height: 90vh;
+    /*width: 100%;*/
+    /*background: black;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 20%;
+
+
+    /* filter: drop-shadow(0 1.5rem 1rem rgba(0,0,0,0.8));
+    animation: anime_hero 10s linear infinite;
+   @keyframes anime_hero {
+       from{
+           transform:scale(0,9)
+
+       }
+       to{
+           transform::scale(1);
+       }
+   } */
+  }
+
+  /* .images{
+      filter: drop-shadow(0 1.5rem 1rem rgba(0,0,0,0.8));
+      animation: anime_hero 10s linear infinite alternate;
+      @keyframes anime_hero{
+          from{
+              transform:rotate(5deg);
+          }
+          to{
+              transform:rotate(-5deg);
+          }
+      }
+  }
+ */
+.animated{
+animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0%{
+    transform: translateY((10px));
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.question{
+  color: black;
+}
+

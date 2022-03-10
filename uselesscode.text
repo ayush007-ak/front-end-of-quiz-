@@ -1,0 +1,8 @@
+ <nav>
+
+                <Link style={{ marginLeft: "20px" }} to="/python">PythonData</Link>
+                <Link style={{ marginLeft: "20px" }} to="/java">JavaData</Link>
+                <Link style={{ marginLeft: "20px" }} to="/css">CssData</Link>
+                <Link style={{ marginLeft: "20px" }} to="/database">Database</Link>
+   </nav>
+        

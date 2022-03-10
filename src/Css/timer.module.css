@@ -1,0 +1,16 @@
+.timer{
+    width: 100%;
+   
+   
+   
+    justify-content: right ;
+
+}
+
+
+
+.timer_container{
+    background-color: beige;
+   align-items: center;
+    border-radius: 1rem;
+}
